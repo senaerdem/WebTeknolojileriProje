@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sena Nur Erdem Kişisel WEB Sitesi</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="150" />
+    <meta name="description" content="Sena Nur Erdem" />
+    <meta name="keywords" content="Sena Nur Erdem,iletisim" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" href="cssdosya.css" type="text/css" />
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 mx-auto" id="sayfa">
+          <table>
+            <tr>
+              <td width="1000">
+                <div class="container">
+                  <div class="row">
+                    <div class="menu">
+                      <h1 style="color: #c1ffd7">SENA NUR ERDEM</h1>
+                      <br />
+                      <span
+                        ><a href="index.html" target="_blank">HAKKIMDA</a></span
+                      >
+                      <span
+                        ><a href="sehrim.html" target="_blank">ŞEHRİM</a></span
+                      >
+                      <span
+                        ><a href="takimimiz.html" target="_blank"
+                          >TAKIMIMIZ</a
+                        ></span
+                      >
+                      <span>
+                        <a href="hobilerim.html" target="_blank"
+                          >İLGİ ALANLARIM</a
+                        >
+                      </span>
+                      <span
+                        ><a href="login.html" target="_blank">LOGİN</a></span
+                      >
+                      <span
+                        ><a href="iletisim.html" target="_blank"
+                          >İLETİŞİM</a
+                        ></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <div class="iletisim_yazi">
+            <form
+              action="post.php"
+              target="_blank"
+              method="post"
+              class="form-row"
+            >
+              <table
+                style="text-align: left; background-color: #b5deff"
+                class="tabla"
+              >
+                <tr>
+                  <td>Adınız</td>
+                  <td>
+                    <input
+                      type="text"
+                      name="ad"
+                      required="required"
+                      placeholder="Adınız"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Soyadınız</td>
+                  <td>
+                    <input
+                      type="text"
+                      name="soyad"
+                      required="required"
+                      placeholder="Soyadınız"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Yaşınız</td>
+                  <td>
+                    <input
+                      type="number"
+                      name="yas"
+                      required="required"
+                      id="yas"
+                      placeholder="Yaşınız"
+                      min="0"
+                      max="100"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Memleketiniz</td>
+                  <td>
+                    <input
+                      type="text"
+                      name="memleket"
+                      required="required"
+                      placeholder="Memleketiniz"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Cinsiyetiniz</td>
+                  <td>
+                    <input type="radio" name="cinsiyet" value="erkek" />Erkek
+                    <input type="radio" name="cinsiyet" value="kadin" />Kadın
+                  </td>
+                </tr>
+                <tr>
+                  <td>Email Adresiniz</td>
+                  <td>
+                    <input
+                      type="email"
+                      name="mail"
+                      id="mail"
+                      required="required"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Mezuniyet Durumunuz</td>
+                  <td>
+                    <input
+                      type="radio"
+                      name="mezuniyet"
+                      value="ilkokul"
+                    />İlkokul
+                    <input
+                      type="radio"
+                      name="mezuniyet"
+                      value="ortaokul"
+                    />Ortaokul
+                    <input type="radio" name="mezuniyet" value="lise" />Lise
+                    <input
+                      type="radio"
+                      name="mezuniyet"
+                      value="üniversite"
+                    />Üniversite
+                  </td>
+                </tr>
+                <tr>
+                  <td>Eklemek istediğiniz bir şey</td>
+                  <td>
+                    <input
+                      type="text"
+                      name="yorum"
+                      placeholder="Düşüncelerinizi Belirtin"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                    <input
+                      type="submit"
+                      name="button"
+                      value="gönder"
+                      style="background-color: lightgreen"
+                    />
+                    <input
+                      type="reset"
+                      name="button"
+                      value="reset"
+                      style="background-color: red"
+                    />
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="dosyajs.js"></script>
+  </body>
+</html>
