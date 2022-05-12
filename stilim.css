@@ -16,14 +16,14 @@ body {
 }
 
 .sehrim-arka-plan {
-  background-image: url("../antalyam2.jpg");
+  background-image: url("antalyam2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
   min-height: 1500px;
 }
 .ilgi-alanlarim-arka-plan {
-  background-image: url("../image/ilgi-arka-plan.jpg");
+  background-image: url("ilgi-arka-plan.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -96,7 +96,7 @@ h2 {
   opacity: 1;
 }
 .iletisim-arka {
-  background-image: url("image/iletisim-arka-plan.jpg");
+  background-image: url("iletisim-arka-plan.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -137,7 +137,7 @@ h2 {
   color: black;
 }
 .kaleici-arka {
-  background: url("../image/kaleici.jpg");
+  background: url("kaleici.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -156,7 +156,7 @@ h2 {
   height: fit-content;
 }
 .aspendos-arka {
-  background: url("../image/aspendos.jpg");
+  background: url("aspendos.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -165,7 +165,7 @@ h2 {
   -o-background-size: 100%;
 }
 .duden-arka {
-  background: url("../image/duden.jpg");
+  background: url("duden.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -180,7 +180,7 @@ h2 {
   font-size: 12pt;
 }
 .apollon-arka {
-  background: url("../image/apollon.jpg");
+  background: url("apollon.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -239,7 +239,7 @@ table {
   width: inherit;
 }
 .login-container {
-  background: url("../image/loginArkaPlan.jpg");
+  background: url("loginArkaPlan.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
