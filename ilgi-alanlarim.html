@@ -229,6 +229,59 @@
             </p>
           </div>
         </div>
+        <div class="dis">
+          <div class="ic">
+            <h1>Hava Durumu</h1>
+            <br />
+            <input
+              type="text"
+              id="searchBar"
+              placeholder="Şehir adı giriniz.."
+            />
+          </div>
+          <div style="text-align: center" class="ic">
+            <div class="city">İstanbul, TR</div>
+            <div class="temp">15°C</div>
+            <div class="desc">Güneşli</div>
+            <div class="minmax">14°C / 19°C</div>
+          </div>
+        </div>
+        <script>
+          const url = "https://api.openweathermap.org/data/2.5/";
+          const key = "44d0ff299a84c8ae59a1bb08270f1db0";
+
+          const setQuery = (e) => {
+            if ((e.keyCode = "13")) getResult(searchBar.value);
+          };
+
+          const getResult = (cityName) => {
+            let query = `${url}weather?q=${cityName}&appid=${key}&units=metric&lang=tr`;
+            fetch(query)
+              .then((weather) => {
+                return weather.json();
+              })
+              .then(displayResult);
+          };
+
+          const displayResult = (result) => {
+            let city = document.querySelector(".city");
+            city.innerText = `${result.name}, ${result.sys.country}`;
+
+            let temp = document.querySelector(".temp");
+            temp.innerText = `${Math.round(result.main.temp)}°C`;
+
+            let desc = document.querySelector(".desc");
+            desc.innerText = result.weather[0].description;
+
+            let minmax = document.querySelector(".minmax");
+            minmax.innerText = `${Math.round(
+              result.main.temp_min
+            )}°C / ${Math.round(result.main.temp_max)}°C`;
+          };
+
+          const searchBar = document.getElementById("searchBar");
+          searchBar.addEventListener("keypress", setQuery);
+        </script>
       </div>
     </section>
 

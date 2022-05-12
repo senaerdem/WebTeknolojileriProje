@@ -305,3 +305,36 @@ h3 {
   opacity: 0.9;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+.dis {
+  width: fit-content;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: 1rem;
+  background-color: #cecece;
+  border-radius: 9px;
+}
+.ic {
+  width: 90%;
+  margin: 5%;
+  margin-bottom: 1%;
+}
+
+input {
+  background-color: white;
+  color: black;
+  font-weight: 550;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: none;
+  border-bottom: 1px solid red;
+  height: 25px;
+  text-align: center;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
